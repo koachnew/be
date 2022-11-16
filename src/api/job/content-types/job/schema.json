@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "singularName": "job",
+    "pluralName": "jobs",
+    "displayName": "Job",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "richtext"
+    },
+    "requirement": {
+      "type": "richtext"
+    },
+    "location": {
+      "type": "string"
+    },
+    "postedby": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "applicationsreceived": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::users-permissions.user"
+    },
+    "school": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "salary": {
+      "type": "string"
+    },
+    "qualification": {
+      "type": "string"
+    },
+    "minexperience": {
+      "type": "string"
+    },
+    "skillsandablities": {
+      "type": "richtext"
+    }
+  }
+}
