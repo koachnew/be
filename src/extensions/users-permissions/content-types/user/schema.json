@@ -63,18 +63,23 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "type": {
-      "type": "string"
-    },
-    "savedjobs": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::job.job"
-    },
     "appliedjobs": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::job.job"
+      "target": "api::appliedjob.appliedjob",
+      "mappedBy": "user"
+    },
+    "savedjobs": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::savedjob.savedjob",
+      "inversedBy": "user"
+    },
+    "jobsposted": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::job.job",
+      "mappedBy": "postedby"
     }
   }
 }

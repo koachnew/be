@@ -21,22 +21,6 @@
     "requirement": {
       "type": "richtext"
     },
-    "location": {
-      "type": "string"
-    },
-    "postedby": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "plugin::users-permissions.user"
-    },
-    "applicationsreceived": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "plugin::users-permissions.user"
-    },
-    "school": {
-      "type": "string"
-    },
     "type": {
       "type": "string"
     },
@@ -51,6 +35,27 @@
     },
     "skillsandablities": {
       "type": "richtext"
+    },
+    "school": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::school.school",
+      "inversedBy": "jobs"
+    },
+    "sport": {
+      "type": "string"
+    },
+    "applicationsreceived": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::appliedjob.appliedjob",
+      "mappedBy": "job"
+    },
+    "postedby": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "jobsposted"
     }
   }
 }
