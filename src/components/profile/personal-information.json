@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_profile_personal_informations",
+  "info": {
+    "displayName": "Personal Information",
+    "icon": "check-square"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "text"
+    },
+    "twitterhandle": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "male",
+        "female"
+      ]
+    },
+    "ethinicityrace": {
+      "type": "enumeration",
+      "enum": [
+        "african",
+        "indian",
+        "chinese"
+      ]
+    },
+    "veterrandisablity": {
+      "type": "enumeration",
+      "enum": [
+        "yes",
+        "no"
+      ]
+    },
+    "phone": {
+      "type": "integer"
+    }
+  }
+}

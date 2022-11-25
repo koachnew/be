@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_profile_experiences",
+  "info": {
+    "displayName": "Experience"
+  },
+  "options": {},
+  "attributes": {
+    "p": {
+      "type": "string"
+    }
+  }
+}

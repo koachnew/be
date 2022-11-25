@@ -80,6 +80,16 @@
       "relation": "oneToMany",
       "target": "api::job.job",
       "mappedBy": "postedby"
+    },
+    "personalDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "profile.personal-information"
+    },
+    "experience": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profile.experience"
     }
   }
 }

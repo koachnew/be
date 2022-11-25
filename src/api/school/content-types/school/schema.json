@@ -23,6 +23,16 @@
       "relation": "oneToMany",
       "target": "api::job.job",
       "mappedBy": "school"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
