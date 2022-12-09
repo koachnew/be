@@ -5,10 +5,6 @@ module.exports = {
     },
     public: {
       path: "/data/public",
-    },
-    cors: {
-      origin: ["*"], //allow all origins
-      headers: ["*"], //allow all headers
-    },
+    }
   },
 };
