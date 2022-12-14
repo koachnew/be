@@ -1,8 +1,8 @@
 module.exports = {
-    settings: {
-      cors: {
-        enabled: true,
-        origin: ['*']
-      },
+  settings: {
+    cors: {
+      origin: ['*'],
+      headers: ['*'],
     },
+  },
 };
