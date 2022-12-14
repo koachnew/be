@@ -7,7 +7,7 @@ module.exports = [
     config: {
       enabled: true,
       header: '*',
-      origin: ['http://localhost:3200','http://localhost:3000','https://koachassist-8ohk.vercel.app/']
+      origin: ['http://localhost:3200','http://localhost:3000','https://koachassist-8ohk.vercel.app/','https://strapi-8249.onrender.com']
     }
   },
   'strapi::logger',
