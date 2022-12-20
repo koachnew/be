@@ -1,12 +1,41 @@
 {
   "collectionName": "components_profile_experiences",
   "info": {
-    "displayName": "Experience"
+    "displayName": "Experience",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "p": {
+    "Title": {
       "type": "string"
+    },
+    "Company": {
+      "type": "string"
+    },
+    "From": {
+      "type": "date"
+    },
+    "To": {
+      "type": "date"
+    },
+    "State": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
