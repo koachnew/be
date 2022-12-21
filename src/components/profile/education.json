@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_profile_educations",
+  "info": {
+    "displayName": "Education",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "School": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "From": {
+      "type": "date"
+    },
+    "To": {
+      "type": "date"
+    },
+    "Degree": {
+      "type": "string"
+    },
+    "FieldofStudy": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}
