@@ -2,7 +2,8 @@
   "collectionName": "components_profile_others",
   "info": {
     "displayName": "Others",
-    "icon": "braille"
+    "icon": "braille",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -22,6 +23,9 @@
     "TeachingPosition": {
       "type": "boolean",
       "default": true
+    },
+    "CoachType": {
+      "type": "string"
     }
   }
 }
