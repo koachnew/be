@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_profile_others",
+  "info": {
+    "displayName": "Others",
+    "icon": "braille"
+  },
+  "options": {},
+  "attributes": {
+    "CareerInterest": {
+      "type": "json"
+    },
+    "ReceiveNotificationsFor": {
+      "type": "json"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Relocation": {
+      "type": "boolean",
+      "default": true
+    },
+    "TeachingPosition": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
