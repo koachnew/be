@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_profile_achievements",
+  "info": {
+    "displayName": "Achievements",
+    "icon": "trophy",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "School": {
+      "type": "string"
+    },
+    "FieldofStudy": {
+      "type": "string"
+    },
+    "From": {
+      "type": "date"
+    },
+    "To": {
+      "type": "date"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

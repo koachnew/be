@@ -96,6 +96,11 @@
       "type": "component",
       "repeatable": true,
       "component": "profile.education"
+    },
+    "Achievements": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profile.achievements"
     }
   }
 }
