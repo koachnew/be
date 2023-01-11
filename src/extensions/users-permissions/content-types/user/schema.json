@@ -107,6 +107,9 @@
       "type": "component",
       "repeatable": false,
       "component": "profile.others"
+    },
+    "roletype": {
+      "type": "string"
     }
   }
 }
