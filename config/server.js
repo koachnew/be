@@ -4,5 +4,6 @@ module.exports = ({ env }) => ({
   app: {
     keys: env.array('APP_KEYS'),
   },
+  proxy: true,
   url: 'https://strapi-8249.onrender.com'
 });
