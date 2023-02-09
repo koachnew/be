@@ -15,8 +15,8 @@
     "name": {
       "type": "string"
     },
-    "location": {
-      "type": "string"
+    "address": {
+      "type": "text"
     },
     "jobs": {
       "type": "relation",
@@ -24,15 +24,59 @@
       "target": "api::job.job",
       "mappedBy": "school"
     },
-    "logo": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "zip": {
+      "type": "biginteger"
+    },
+    "phone": {
+      "type": "text"
+    },
+    "website": {
+      "type": "text"
+    },
+    "mailingZip": {
+      "type": "string"
+    },
+    "mailingCity": {
+      "type": "string"
+    },
+    "mailingState": {
+      "type": "string"
+    },
+    "mailingAddress": {
+      "type": "text"
+    },
+    "country": {
+      "type": "string"
+    },
+    "athleticDirectorPhone": {
+      "type": "string"
+    },
+    "athleticDirectorEmail": {
+      "type": "string"
+    },
+    "athleticDirector": {
+      "type": "string"
+    },
+    "mascot": {
+      "type": "string"
+    },
+    "colors": {
+      "type": "string"
+    },
+    "conference": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "district": {
+      "type": "string"
     }
   }
 }

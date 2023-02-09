@@ -7,7 +7,7 @@ module.exports = {
                 to:to,
                 from:'koachassits1@gmail.com',
                 subject:subject,
-                text:body
+                html:body
             })
         }
         catch(e){
