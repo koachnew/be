@@ -110,6 +110,29 @@
     },
     "roletype": {
       "type": "string"
+    },
+    "associate_title": {
+      "type": "string"
+    },
+    "associate_distinct": {
+      "type": "string"
+    },
+    "associate_state": {
+      "type": "string"
+    },
+    "associate_city": {
+      "type": "string"
+    },
+    "school": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::school.school"
+    },
+    "associate_from": {
+      "type": "string"
+    },
+    "associate_sports": {
+      "type": "text"
     }
   }
 }
