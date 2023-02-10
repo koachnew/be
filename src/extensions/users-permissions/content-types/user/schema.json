@@ -132,7 +132,7 @@
       "type": "string"
     },
     "associate_sports": {
-      "type": "text"
+      "type": "json"
     }
   }
 }
