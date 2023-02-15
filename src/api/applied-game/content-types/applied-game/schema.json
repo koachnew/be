@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "applied_games",
+  "info": {
+    "singularName": "applied-game",
+    "pluralName": "applied-games",
+    "displayName": "AppliedGame",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "status": {
+      "type": "string"
+    },
+    "game": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::game.game",
+      "inversedBy": "applicationsreceived"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "appliedgames"
+    }
+  }
+}

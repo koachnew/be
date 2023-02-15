@@ -133,6 +133,12 @@
     },
     "associate_sports": {
       "type": "json"
+    },
+    "appliedgames": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::applied-game.applied-game",
+      "mappedBy": "user"
     }
   }
 }
