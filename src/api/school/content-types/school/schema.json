@@ -77,6 +77,12 @@
     },
     "district": {
       "type": "string"
+    },
+    "appliedgames": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::applied-game.applied-game",
+      "mappedBy": "school"
     }
   }
 }

@@ -21,10 +21,10 @@
       "target": "api::game.game",
       "inversedBy": "applicationsreceived"
     },
-    "user": {
+    "school": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "plugin::users-permissions.user",
+      "target": "api::school.school",
       "inversedBy": "appliedgames"
     }
   }
