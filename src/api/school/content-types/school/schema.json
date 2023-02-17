@@ -83,6 +83,13 @@
       "relation": "oneToMany",
       "target": "api::applied-game.applied-game",
       "mappedBy": "school"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
