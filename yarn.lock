@@ -2044,13 +2044,13 @@
     "@strapi/utils" "4.4.7"
     sendmail "^1.6.1"
 
-"@strapi/provider-upload-cloudinary@4.1.7":
-  version "4.1.7"
-  resolved "https://registry.npmjs.org/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.1.7.tgz"
-  integrity sha512-Eeyy9HDe0ZN5nnxrhkzdJ1lptg5dpRFxMtuvFoRwI/7EJ9s+P2ErVnys38eh4rL7Yw4pz+XZKAWeRzYcL+awFg==
+"@strapi/provider-upload-cloudinary@^4.6.1":
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.6.1.tgz#de7f41ffad32a61bd23a07d2fe0a33b611f5ed5c"
+  integrity sha512-O0GOp/w7qShvK4ywDKCXnkRt+ZHBVUtbj5YstAUmZtqPnY/uk+d2J5tWlKBDfzwmo9syorwNFWsMJ8xBe/C9uQ==
   dependencies:
-    "@strapi/utils" "4.1.7"
-    cloudinary "^1.25.1"
+    "@strapi/utils" "4.6.1"
+    cloudinary "^1.33.0"
     into-stream "^5.1.0"
 
 "@strapi/provider-upload-local@4.4.7":
@@ -2132,17 +2132,6 @@
     prettier "2.7.1"
     typescript "4.6.2"
 
-"@strapi/utils@4.1.7":
-  version "4.1.7"
-  resolved "https://registry.npmjs.org/@strapi/utils/-/utils-4.1.7.tgz"
-  integrity sha512-Qxxh3+JaBC2MnYG/IZVMMqVGJO/TIGzKZdVJv4ZCC07hKUuZHnRgnEEGGqMIQHfXF5VJBqlKdkzkdDJldSBxRw==
-  dependencies:
-    "@sindresorhus/slugify" "1.1.0"
-    date-fns "2.24.0"
-    http-errors "1.8.0"
-    lodash "4.17.21"
-    yup "0.32.9"
-
 "@strapi/utils@4.4.7":
   version "4.4.7"
   resolved "https://registry.npmjs.org/@strapi/utils/-/utils-4.4.7.tgz"
@@ -2163,6 +2152,18 @@
     date-fns "2.29.3"
     http-errors "1.8.1"
     lodash "4.17.21"
+    yup "0.32.9"
+
+"@strapi/utils@4.6.1":
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.6.1.tgz#5e2b600d230ace703d479880fd3ae65aa2f42b78"
+  integrity sha512-rsECsXyRuL3Hi12cfsSVHS07JXrMR1eT+gWaTC2KxtHRiLsueELEKG08h13tlMwRfvvhzPcjqB11qNs3bI17iA==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "2.29.3"
+    http-errors "1.8.1"
+    lodash "4.17.21"
+    p-map "4.0.0"
     yup "0.32.9"
 
 "@swc/helpers@^0.4.14":
@@ -3694,10 +3695,10 @@ cloudinary-core@^2.10.2:
   resolved "https://registry.npmjs.org/cloudinary-core/-/cloudinary-core-2.13.0.tgz"
   integrity sha512-Nt0Q5I2FtenmJghtC4YZ3MZZbGg1wLm84SsxcuVwZ83OyJqG9CNIGp86CiI6iDv3QobaqBUpOT7vg+HqY5HxEA==
 
-cloudinary@^1.25.1:
-  version "1.33.0"
-  resolved "https://registry.npmjs.org/cloudinary/-/cloudinary-1.33.0.tgz"
-  integrity sha512-pdqOgd2QAMCFWujdYw1yhZ+lHPTzc6YIfg4WIvbRyoojIbSd/YgnHT8OSnk/OM4Q1WPFD5FM9EEom+4ehG80IA==
+cloudinary@^1.33.0:
+  version "1.34.0"
+  resolved "https://registry.yarnpkg.com/cloudinary/-/cloudinary-1.34.0.tgz#652d01e7e55088288540aa66a17a97d3079ac967"
+  integrity sha512-pY0TF+SVEgBZU1FmJ1z/G+c4qEO46TYz5PvbB07U5s1G7bMmKqkwTWEhvP8gO7cpqk1AewPLr2dLl+j7kI5alQ==
   dependencies:
     cloudinary-core "^2.10.2"
     core-js "^3.6.5"
@@ -4201,11 +4202,6 @@ data-uri-to-buffer@3:
   version "3.0.1"
   resolved "https://registry.npmjs.org/data-uri-to-buffer/-/data-uri-to-buffer-3.0.1.tgz"
   integrity sha512-WboRycPNsVw3B3TL559F7kuBUM4d8CgMEvk6xEJlOp7OBPjt6G7z8WMWlD2rOFZLk6OYfFIUGsCOWzcQH9K2og==
-
-date-fns@2.24.0:
-  version "2.24.0"
-  resolved "https://registry.npmjs.org/date-fns/-/date-fns-2.24.0.tgz"
-  integrity sha512-6ujwvwgPID6zbI0o7UbURi2vlLDR9uP26+tW6Lg+Ji3w7dd0i3DOcjcClLjLPranT60SSEFBwdSyYwn/ZkPIuw==
 
 date-fns@2.29.2:
   version "2.29.2"
@@ -5806,17 +5802,6 @@ http-deceiver@^1.2.7:
   version "1.2.7"
   resolved "https://registry.npmjs.org/http-deceiver/-/http-deceiver-1.2.7.tgz"
   integrity sha512-LmpOGxTfbpgtGVxJrj5k7asXHCgNZp5nLfp+hWc8QQRqtb7fUy6kRY3BO1h9ddF6yIPYUARgxGOwB42DnxIaNw==
-
-http-errors@1.8.0:
-  version "1.8.0"
-  resolved "https://registry.npmjs.org/http-errors/-/http-errors-1.8.0.tgz"
-  integrity sha512-4I8r0C5JDhT5VkvI47QktDW75rNlGVsUf/8hzjCC/wkWI/jdTRmBb9aI7erSG82r1bjKY3F6k28WnsVxB1C73A==
-  dependencies:
-    depd "~1.1.2"
-    inherits "2.0.4"
-    setprototypeof "1.2.0"
-    statuses ">= 1.5.0 < 2"
-    toidentifier "1.0.0"
 
 http-errors@1.8.1, http-errors@^1.6.3, http-errors@^1.7.3, http-errors@^1.8.0, http-errors@~1.8.0:
   version "1.8.1"
@@ -10248,11 +10233,6 @@ toggle-selection@^1.0.6:
   version "1.0.6"
   resolved "https://registry.npmjs.org/toggle-selection/-/toggle-selection-1.0.6.tgz"
   integrity sha512-BiZS+C1OS8g/q2RRbJmy59xpyghNBqrr6k5L/uKBGRsTfxmu3ffiRnd8mlGPUVayg8pvfi5urfnu8TU7DVOkLQ==
-
-toidentifier@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.0.tgz"
-  integrity sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
 
 toidentifier@1.0.1:
   version "1.0.1"
