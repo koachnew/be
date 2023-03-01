@@ -134,11 +134,11 @@
     "associate_sports": {
       "type": "json"
     },
-    "admin_type": {
+    "admin_types": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "oneToMany",
       "target": "api::admin-type.admin-type",
-      "inversedBy": "users"
+      "mappedBy": "users_permissions_user"
     }
   }
 }

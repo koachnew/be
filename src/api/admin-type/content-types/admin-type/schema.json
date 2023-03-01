@@ -4,7 +4,8 @@
   "info": {
     "singularName": "admin-type",
     "pluralName": "admin-types",
-    "displayName": "AdminType"
+    "displayName": "AdminType",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,11 +15,11 @@
     "type": {
       "type": "string"
     },
-    "users": {
+    "users_permissions_user": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
-      "mappedBy": "admin_type"
+      "inversedBy": "admin_types"
     }
   }
 }
