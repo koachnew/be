@@ -1,0 +1,64 @@
+{
+  "collectionName": "components_profile_district_admins",
+  "info": {
+    "displayName": "district_admin",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "addresss": {
+      "type": "text"
+    },
+    "state": {
+      "type": "string"
+    },
+    "zip": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "athleticDirector": {
+      "type": "string"
+    },
+    "conference": {
+      "type": "string"
+    },
+    "mascot": {
+      "type": "string"
+    },
+    "athleticDirectorPhone": {
+      "type": "string"
+    },
+    "mailingState": {
+      "type": "string"
+    },
+    "district": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "colors": {
+      "type": "string"
+    },
+    "athleticDirectorEmail": {
+      "type": "string"
+    },
+    "mailingAddress": {
+      "type": "string"
+    },
+    "mailingZip": {
+      "type": "string"
+    }
+  }
+}
