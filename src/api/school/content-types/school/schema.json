@@ -90,6 +90,12 @@
       ],
       "type": "media",
       "multiple": false
+    },
+    "school_district": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "school_districts"
     }
   }
 }

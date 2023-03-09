@@ -145,6 +145,12 @@
       "type": "component",
       "repeatable": true,
       "component": "profile.district-admin"
+    },
+    "school_districts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::school.school",
+      "mappedBy": "school_district"
     }
   }
 }
