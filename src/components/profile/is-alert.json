@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_profile_is_alerts",
+  "info": {
+    "displayName": "IsAlert"
+  },
+  "options": {},
+  "attributes": {
+    "jobType": {
+      "type": "string"
+    },
+    "isAlert": {
+      "type": "boolean"
+    }
+  }
+}

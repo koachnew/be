@@ -140,17 +140,17 @@
       "target": "api::admin-type.admin-type",
       "inversedBy": "users_permissions_users"
     },
-    "district_admin": {
-      "displayName": "district_admin",
-      "type": "component",
-      "repeatable": true,
-      "component": "profile.district-admin"
-    },
     "school_districts": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::school.school",
       "mappedBy": "school_district"
+    },
+    "Alert": {
+      "displayName": "IsAlert",
+      "type": "component",
+      "repeatable": true,
+      "component": "profile.is-alert"
     }
   }
 }
