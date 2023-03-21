@@ -4,7 +4,8 @@
   "info": {
     "singularName": "game",
     "pluralName": "games",
-    "displayName": "Game"
+    "displayName": "Game",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -34,6 +35,12 @@
       "relation": "oneToMany",
       "target": "api::applied-game.applied-game",
       "mappedBy": "game"
+    },
+    "school": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::school.school",
+      "inversedBy": "game"
     }
   }
 }

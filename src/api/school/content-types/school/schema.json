@@ -96,6 +96,12 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "school_districts"
+    },
+    "game": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::game.game",
+      "inversedBy": "school"
     }
   }
 }
