@@ -26,6 +26,12 @@
       "relation": "manyToOne",
       "target": "api::school.school",
       "inversedBy": "appliedgames"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "applied_games"
     }
   }
 }

@@ -151,6 +151,18 @@
       "type": "component",
       "repeatable": true,
       "component": "profile.is-alert"
+    },
+    "games": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::game.game",
+      "mappedBy": "users_permissions_user"
+    },
+    "applied_games": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::applied-game.applied-game",
+      "mappedBy": "users_permissions_user"
     }
   }
 }
