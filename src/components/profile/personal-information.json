@@ -2,7 +2,8 @@
   "collectionName": "components_profile_personal_informations",
   "info": {
     "displayName": "Personal Information",
-    "icon": "check-square"
+    "icon": "check-square",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -19,7 +20,8 @@
       "type": "enumeration",
       "enum": [
         "male",
-        "female"
+        "female",
+        "other"
       ]
     },
     "ethinicityrace": {
