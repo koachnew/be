@@ -40,7 +40,7 @@
       ]
     },
     "phone": {
-      "type": "integer"
+      "type": "text"
     }
   }
 }
