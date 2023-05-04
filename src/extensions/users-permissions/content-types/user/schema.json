@@ -163,6 +163,9 @@
       "relation": "oneToMany",
       "target": "api::applied-game.applied-game",
       "mappedBy": "users_permissions_user"
+    },
+    "Description": {
+      "type": "text"
     }
   }
 }
