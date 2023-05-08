@@ -43,6 +43,9 @@
     },
     "fileName": {
       "type": "string"
+    },
+    "uploadedDate": {
+      "type": "date"
     }
   }
 }
