@@ -40,6 +40,9 @@
     },
     "ImageBase64": {
       "type": "text"
+    },
+    "fileName": {
+      "type": "string"
     }
   }
 }
