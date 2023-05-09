@@ -168,13 +168,10 @@
       "type": "text"
     },
     "profile": {
-
-      "type": "text"    }
-  },
-  "profileId": {
-
-    "type": "text"
-   }
-
-
+      "type": "text"
+    },
+    "RecievedNotificationType": {
+      "type": "string"
+    }
+  }
 }
