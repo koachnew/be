@@ -26,6 +26,9 @@
     },
     "CoachType": {
       "type": "string"
+    },
+    "RecievedNotificationType": {
+      "type": "string"
     }
   }
 }

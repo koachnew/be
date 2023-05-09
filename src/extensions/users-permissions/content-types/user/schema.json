@@ -169,9 +169,6 @@
     },
     "profile": {
       "type": "text"
-    },
-    "RecievedNotificationType": {
-      "type": "string"
     }
   }
 }
