@@ -170,5 +170,11 @@
     "profile": {
 
       "type": "text"    }
-  }
+  },
+  "profileId": {
+
+    "type": "text"
+   }
+
+
 }
