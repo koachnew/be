@@ -168,11 +168,7 @@
       "type": "text"
     },
     "profile": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
-    }
+
+      "type": "text"    }
   }
 }
