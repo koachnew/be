@@ -50,6 +50,9 @@
     },
     "gameDate": {
       "type": "date"
+    },
+    "sportsType": {
+      "type": "string"
     }
   }
 }
