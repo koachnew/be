@@ -24,9 +24,6 @@
     "otherDetails": {
       "type": "text"
     },
-    "contactPhone": {
-      "type": "biginteger"
-    },
     "contactEmail": {
       "type": "email"
     },
@@ -52,6 +49,9 @@
       "type": "date"
     },
     "sportsType": {
+      "type": "string"
+    },
+    "contactPhone": {
       "type": "string"
     }
   }
