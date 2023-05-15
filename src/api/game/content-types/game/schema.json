@@ -53,6 +53,9 @@
     },
     "contactPhone": {
       "type": "string"
+    },
+    "location": {
+      "type": "string"
     }
   }
 }
