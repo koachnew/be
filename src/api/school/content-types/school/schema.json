@@ -85,11 +85,12 @@
       "mappedBy": "school"
     },
     "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "school_district": {
       "type": "relation",
@@ -102,6 +103,12 @@
       "relation": "oneToOne",
       "target": "api::game.game",
       "mappedBy": "school"
+    },
+    "schoolLogo": {
+      "type": "string"
+    },
+    "schoolLogoId": {
+      "type": "string"
     }
   }
 }
