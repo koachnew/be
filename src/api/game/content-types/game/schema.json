@@ -59,6 +59,9 @@
       "relation": "manyToOne",
       "target": "api::school.school",
       "inversedBy": "games"
+    },
+    "level": {
+      "type": "string"
     }
   }
 }
