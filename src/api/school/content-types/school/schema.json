@@ -98,9 +98,9 @@
       "target": "plugin::users-permissions.user",
       "inversedBy": "school_districts"
     },
-    "game": {
+    "games": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::game.game",
       "mappedBy": "school"
     },

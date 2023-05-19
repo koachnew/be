@@ -33,12 +33,6 @@
       "target": "api::applied-game.applied-game",
       "mappedBy": "game"
     },
-    "school": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::school.school",
-      "inversedBy": "game"
-    },
     "users_permissions_user": {
       "type": "relation",
       "relation": "manyToOne",
@@ -59,6 +53,12 @@
     },
     "gameTime": {
       "type": "string"
+    },
+    "school": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::school.school",
+      "inversedBy": "games"
     }
   }
 }
