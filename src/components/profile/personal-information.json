@@ -27,9 +27,13 @@
     "ethinicityrace": {
       "type": "enumeration",
       "enum": [
-        "african",
-        "indian",
-        "chinese"
+        "Hispanic or Latino",
+        "Not Hispanic or Latino",
+        "American Indian or Alaska Native",
+        "Asian",
+        "Black or African American",
+        "Native Hawaiian or Other Pacific Islander",
+        "White"
       ]
     },
     "veterrandisablity": {
