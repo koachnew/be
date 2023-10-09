@@ -65,6 +65,9 @@
     },
     "employmenttype": {
       "type": "string"
+    },
+    "category": {
+      "type": "string"
     }
   }
 }
