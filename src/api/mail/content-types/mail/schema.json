@@ -14,6 +14,9 @@
     "subject": {
       "type": "string"
     },
+    "emailType": {
+      "type": "string"
+    },
     "to": {
       "type": "email"
     },
