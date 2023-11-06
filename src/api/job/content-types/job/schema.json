@@ -12,6 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "published": {
+      "type": "boolean",
+      "default":true
+    },
     "title": {
       "type": "string"
     },
