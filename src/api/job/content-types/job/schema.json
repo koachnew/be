@@ -13,7 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "published": {
-      "type": "boolean"
+      "type": "boolean",
+      "default":true
     },
     "title": {
       "type": "string"
