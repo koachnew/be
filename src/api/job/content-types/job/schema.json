@@ -12,9 +12,9 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "published": {
+    "isPublished": {
       "type": "boolean",
-      "default":true
+      "default": true
     },
     "title": {
       "type": "string"
