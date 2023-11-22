@@ -21,6 +21,7 @@
       "enum": [
         "male",
         "female",
+        "Decline to State",
         "other"
       ]
     },
@@ -33,14 +34,19 @@
         "Asian",
         "Black or African American",
         "Native Hawaiian or Other Pacific Islander",
-        "White"
+        "White",
+        "Decline to State",
+        "Other"
       ]
     },
     "veterrandisablity": {
       "type": "enumeration",
       "enum": [
-        "yes",
-        "no"
+        "Decline to State",
+        "I am a Protected Veteran",
+        "I am not a Protected Veteran",
+        "I am disabled Veteran",
+        "I am not disabled"
       ]
     },
     "phone": {
