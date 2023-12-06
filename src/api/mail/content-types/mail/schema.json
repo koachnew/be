@@ -4,7 +4,8 @@
   "info": {
     "singularName": "mail",
     "pluralName": "mails",
-    "displayName": "mail"
+    "displayName": "mail",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,6 +23,11 @@
     },
     "body": {
       "type": "richtext"
+    },
+    "appliedjob": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::appliedjob.appliedjob"
     }
   }
 }
