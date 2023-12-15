@@ -72,12 +72,6 @@
     },
     "category": {
       "type": "string"
-    },
-    "contactUserName": {
-      "type": "string"
-    },
-    "contactUserId": {
-      "type": "integer"
     }
   }
 }
