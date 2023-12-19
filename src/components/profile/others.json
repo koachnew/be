@@ -26,9 +26,6 @@
     },
     "RecievedNotificationType": {
       "type": "string"
-    },
-    "CoachType": {
-      "type": "json"
     }
   }
 }
