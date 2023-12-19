@@ -24,11 +24,11 @@
       "type": "boolean",
       "default": true
     },
-    "CoachType": {
-      "type": "string"
-    },
     "RecievedNotificationType": {
       "type": "string"
+    },
+    "CoachType": {
+      "type": "json"
     }
   }
 }
