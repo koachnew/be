@@ -25,7 +25,7 @@
       "default": true
     },
     "CoachType": {
-      "type": "string"
+      "type": "json"
     },
     "RecievedNotificationType": {
       "type": "string"
