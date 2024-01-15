@@ -62,6 +62,9 @@
     },
     "level": {
       "type": "string"
+    },
+    "source": {
+      "type": "string"
     }
   }
 }
