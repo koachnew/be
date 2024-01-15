@@ -63,7 +63,7 @@
     "level": {
       "type": "string"
     },
-    "source": {
+    "src": {
       "type": "string"
     }
   }
