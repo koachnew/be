@@ -7,7 +7,7 @@ module.exports = {
       twoWeeksAgo.setDate(twoWeeksAgo.getDate() - 14);
 
       // This is for testing purpose. Please replace fiveMinutesAgo to twoWeeksAgo on the query after the testing
-
+ 
       // const fiveMinutesAgo = new Date(currentDate.getTime() - 5 * 60 * 1000);
 
       const rejectionMails = await strapi.entityService.findMany(
