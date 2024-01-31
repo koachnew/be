@@ -29,6 +29,10 @@
     },
     "Body": {
       "type": "richtext"
+    },
+    "MarkAsRead": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
